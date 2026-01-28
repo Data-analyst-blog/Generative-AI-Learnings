@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeSeries>
+    <Metadata>
+        <Title>Weekly Demand Data</Title>
+        <Unit>Units</Unit>
+        <Frequency>Weekly</Frequency>
+        <StartDate>2025-W01</StartDate>
+        <EndDate>2025-W52</EndDate>
+    </Metadata>
+
+    <Observations>
+        <Observation><Date>2025-W01</Date><Value>520</Value></Observation>
+        <Observation><Date>2025-W02</Date><Value>505</Value></Observation>
+        <Observation><Date>2025-W03</Date><Value>510</Value></Observation>
+        <Observation><Date>2025-W04</Date><Value>530</Value></Observation>
+        <Observation><Date>2025-W05</Date><Value>550</Value></Observation>
+        <Observation><Date>2025-W06</Date><Value>560</Value></Observation>
+        <Observation><Date>2025-W07</Date><Value>545</Value></Observation>
+        <Observation><Date>2025-W08</Date><Value>535</Value></Observation>
+        <Observation><Date>2025-W09</Date><Value>525</Value></Observation>
+        <Observation><Date>2025-W10</Date><Value>540</Value></Observation>
+        <Observation><Date>2025-W11</Date><Value>560</Value></Observation>
+        <Observation><Date>2025-W12</Date><Value>580</Value></Observation>
+        <Observation><Date>2025-W13</Date><Value>600</Value></Observation>
+        <Observation><Date>2025-W14</Date><Value>620</Value></Observation>
+        <Observation><Date>2025-W15</Date><Value>610</Value></Observation>
+        <Observation><Date>2025-W16</Date><Value>605</Value></Observation>
+        <Observation><Date>2025-W17</Date><Value>615</Value></Observation>
+        <Observation><Date>2025-W18</Date><Value>630</Value></Observation>
+        <Observation><Date>2025-W19</Date><Value>650</Value></Observation>
+        <Observation><Date>2025-W20</Date><Value>670</Value></Observation>
+        <Observation><Date>2025-W21</Date><Value>690</Value></Observation>
+        <Observation><Date>2025-W22</Date><Value>680</Value></Observation>
+        <Observation><Date>2025-W23</Date><Value>670</Value></Observation>
+        <Observation><Date>2025-W24</Date><Value>660</Value></Observation>
+        <Observation><Date>2025-W25</Date><Value>675</Value></Observation>
+        <Observation><Date>2025-W26</Date><Value>690</Value></Observation>
+        <Observation><Date>2025-W27</Date><Value>710</Value></Observation>
+        <Observation><Date>2025-W28</Date><Value>730</Value></Observation>
+        <Observation><Date>2025-W29</Date><Value>720</Value></Observation>
+        <Observation><Date>2025-W30</Date><Value>715</Value></Observation>
+        <Observation><Date>2025-W31</Date><Value>725</Value></Observation>
+        <Observation><Date>2025-W32</Date><Value>740</Value></Observation>
+        <Observation><Date>2025-W33</Date><Value>760</Value></Observation>
+        <Observation><Date>2025-W34</Date><Value>780</Value></Observation>
+        <Observation><Date>2025-W35</Date><Value>770</Value></Observation>
+        <Observation><Date>2025-W36</Date><Value>760</Value></Observation>
+        <Observation><Date>2025-W37</Date><Value>750</Value></Observation>
+        <Observation><Date>2025-W38</Date><Value>740</Value></Observation>
+        <Observation><Date>2025-W39</Date><Value>730</Value></Observation>
+        <Observation><Date>2025-W40</Date><Value>745</Value></Observation>
+        <Observation><Date>2025-W41</Date><Value>760</Value></Observation>
+        <Observation><Date>2025-W42</Date><Value>780</Value></Observation>
+        <Observation><Date>2025-W43</Date><Value>800</Value></Observation>
+        <Observation><Date>2025-W44</Date><Value>820</Value></Observation>
+        <Observation><Date>2025-W45</Date><Value>810</Value></Observation>
+        <Observation><Date>2025-W46</Date><Value>800</Value></Observation>
+        <Observation><Date>2025-W47</Date><Value>790</Value></Observation>
+        <Observation><Date>2025-W48</Date><Value>805</Value></Observation>
+        <Observation><Date>2025-W49</Date><Value>820</Value></Observation>
+        <Observation><Date>2025-W50</Date><Value>840</Value></Observation>
+        <Observation><Date>2025-W51</Date><Value>860</Value></Observation>
+        <Observation><Date>2025-W52</Date><Value>880</Value></Observation>
+    </Observations>
+</TimeSeries>

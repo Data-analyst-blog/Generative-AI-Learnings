@@ -1,0 +1,125 @@
+1. What is a Time Series?
+
+A time series is a sequence of observations recorded over time, usually at regular intervals.
+
+Examples:
+	•	Daily stock prices
+	•	Monthly sales
+	•	Hourly temperature
+	•	Weekly demand
+
+X_1, X_2, X_3, \dots, X_t
+
+
+2. Key Components of a Time Series
+
+Most time series can be broken into four parts:
+
+(a) Trend (T)
+
+Long-term direction of the series.
+	•	Upward, downward, or flat
+Example: Gradual increase in yearly sales.
+
+(b) Seasonality (S)
+
+Regular repeating patterns at fixed intervals.
+	•	Daily, weekly, monthly, yearly
+Example: Ice cream sales higher every summer.
+
+(c) Cyclic (C)
+
+Longer-term ups and downs, not fixed length.
+Example: Economic booms and recessions.
+
+(d) Noise / Residual (R)
+
+Random variation that cannot be explained.
+Example: Unexpected spikes or drops.
+
+\text{Time Series} = T + S + C + R
+
+
+3. Types of Time Series
+
+(a) Stationary
+
+Statistical properties (mean, variance) do not change over time.
+
+(b) Non-Stationary
+
+Mean, variance, or pattern changes over time.
+Most real-world time series are non-stationary.
+
+
+4. Important Concepts
+
+(a) Lag
+
+A previous time step value.
+	•	Lag-1 = value at t-1
+	•	Lag-7 = value 7 days ago
+
+(b) Autocorrelation
+
+Correlation between a series and its past values.
+Used to detect patterns and seasonality.
+
+(c) Differencing
+
+Subtracting previous value to remove trend:
+
+Y_t = X_t - X_{t-1}
+
+
+5. Common Time Series Models
+
+(a) Naïve Forecast
+
+Next value = last observed value.
+
+(b) Moving Average
+
+Smooths noise by averaging past values.
+
+(c) ARIMA
+
+AutoRegressive + Integrated + Moving Average.
+Handles trend and autocorrelation.
+
+(d) Exponential Smoothing (ETS)
+
+Gives more weight to recent observations.
+
+(e) Prophet
+
+Good for business seasonality and holidays.
+
+⸻
+
+6. Forecasting Workflow
+	1.	Visualize the data
+	2.	Check trend & seasonality
+	3.	Make series stationary (if needed)
+	4.	Choose a model
+	5.	Train the model
+	6.	Validate performance
+	7.	Forecast future values
+
+
+7. Simple Example
+
+Monthly sales:
+Month           Sales
+Jan             100
+Feb             120
+Mar             140
+
+	•	Trend: Increasing
+	•	Seasonality: None visible yet
+	•	Lag-1: Feb uses Jan’s value
+	•	Naïve Forecast for Apr: 140
+
+In One Line
+
+Time series analysis studies data collected over time to understand patterns (trend, seasonality) and make future forecasts.
